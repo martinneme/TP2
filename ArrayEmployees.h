@@ -144,4 +144,11 @@ int validadorLen(char auxLen[],int lenstr);
  * \return int Retorna 1 si esta ok, 0 si falla.
  */
 int validadorInputInt(char auxlen[],int lenstr);
+/** \brief Calcula Salario total, promedio y cantidad de empleados con salario superior el promedio.
+ *
+ * \param employes[] employees Recibe el vector de empleados
+ * \param tam int recibe el tamaño del vector de empleados
+ * \return int retorna 1 si llega al final del codigo.
+ *
+ */
 int salaryInformation(employees employes[],int tam);
